@@ -19,40 +19,24 @@ public class User {
 	private String email;
 
 
-	public Long getId() {
-		return id;
-	}
-
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public String getUserId() {
-		return userId;
 	}
 
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
 
-	public String getPassword() {
-		return password;
+	public String getUserId() {
+		return userId;
 	}
 
 	public void setPassword(String password) {
 		this.password = password;
 	}
 
-	public String getName() {
-		return name;
-	}
-
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getEmail() {
-		return email;
 	}
 
 	public void setEmail(String email) {
@@ -69,4 +53,23 @@ public class User {
 		this.name = newUser.name;
 		this.email = newUser.email;
 	}
+
+	public boolean matchId(Long newId)
+	{
+		if( newId == null )
+		{
+			return false;
+		}
+		return newId.equals(id);
+	}
+
+	public boolean matchPassword(String newPassword)
+	{
+		if( newPassword == null )
+		{
+			return false;
+		}
+		return newPassword.equals(password);
+	}
+
 }
