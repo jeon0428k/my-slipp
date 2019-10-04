@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="kkk" width="1280" height="720" titletext="New Form">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <PopupMenu id="PopupMenu00" left="234" top="108" width="228" height="172"/>
+      </Layout>
+    </Layouts>
+  </Form>
+</FDL>
