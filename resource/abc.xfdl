@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="abc" width="1280" height="720" titletext="New Form">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <Calendar id="Calendar00" taborder="0" left="204" top="80" width="288" height="136"/>
+      </Layout>
+    </Layouts>
+  </Form>
+</FDL>
